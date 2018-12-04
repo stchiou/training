@@ -6,7 +6,11 @@ p  {
    color: #000000;}
 th {
    background-color: #999999;
-   color: #000000}
+   color: #000000;
+   font-family:"Times New Roman", Times, serif;}
 td {
    background-color: #cccccc;
-   color: #000000}
+   color: #000000;
+   font-family:"Times New Roman", Times, serif;}
+strong {
+   font-family:"Times New Roman", Times, serif;}
