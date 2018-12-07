@@ -23,9 +23,10 @@ footer	{
 body	{
 	font-family:Arial, Verdana, sans-serif;}
 
-div.definition {
-  float:left;
-  width:75%;}
+div.disclaimer {
+  clear:left;
+  text-align:left;
+  font-size: 12px;}
 
 h1	{
   color: #003366;
