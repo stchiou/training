@@ -20,6 +20,11 @@ footer	{
 	background-color: #ccf2ff;
 	text-align: center;}
 
+div.disclaimer {
+    clear:left;
+    text-align:left;
+    font-size: 12px;}
+
 body	{
 	font-family:Arial, Verdana, sans-serif;}
 
