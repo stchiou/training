@@ -1,20 +1,30 @@
 header 	{
-   	background-color:#ccf2ff;
+   	background-color:#92a8d1;
    	text-align: center;
     margin-left:auto;
-    margin-right:auto;}
-
+    margin-right:auto;
+    padding:20px 20px 20px 20px;}
 
 nav	{
   width:100%;
   height:100%;
   background-color: #ffffff;}
 
+a {
+  color:white;
+  text-decoration:none;
+}
 nav button{
       padding:15px 32px;
       font-size: 22px;
+      color:white;
+      background-color:#a2b9bc;
     }
-    
+
+nav button:hover {
+   color:white;
+   background-color:#d6cbd3;
+}
 footer	{
 	clear:left;
 	background-color: #ccf2ff;
@@ -29,7 +39,7 @@ div.disclaimer {
   font-size: 12px;}
 
 h1	{
-  color: #003366;
+  color: white;
 	font-size: 24px;
   }
 
