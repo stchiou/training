@@ -81,6 +81,7 @@ strong	{
 
 aside ul li{
   margin-left:0;
+  margin-top:3px;
   padding:0;
   font-size:22px;
   list-style-type:none;
@@ -90,4 +91,11 @@ div#main_box {
     width:70%;
     height:800px;
     overflow:scroll;
+}
+div#main_box ul ol li{
+  margin-top:3px;
+}
+
+a.intext {
+  color:blue;
 }
