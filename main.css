@@ -85,9 +85,13 @@ aside ul li{
 }
 
 div#main_box {
-    width:70%;
+    width:73%;
+    padding-top:20px;
     height:800px;
     overflow:scroll;
+    background-color:#cfe0e8;
+    padding-left:1em;
+    margin-top:1px;
 }
 div#main_box ul li{
   margin-top:3px;
@@ -98,4 +102,8 @@ div#main_box ol{
 
 a.intext {
   color:blue;
+}
+
+ul#role{
+  list-style:none;
 }

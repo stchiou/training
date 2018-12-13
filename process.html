@@ -25,22 +25,22 @@
 									<li><a href="#notify">Notification</a></li>
 									<li><a href="#initial">Initial Training</a></li>
 									</ul>
-							<li><a href="#sub_assign">Subsequent Assignments</a></li>
+							<li><a href="#sub_assign">Subsequent Training</a></li>
 								<ul>
 									<li><a href="#add_cur">Add Curricula</a></li>
 									<li><a href="#remove_cur">Remove Curricula</a></li>
 									<li><a href="#cfe">CFE</a></li>
-									<li><a href="#sme">SME</a></li>
+									<li><a href="#sme">SME and Instructor</a></li>
 								</ul>
 							<li><a href="">Special Process</a></li>
 								<ul>
 									<li><a href="#glims">g-LIMS</a></li>
-									<li><a href="">CDA</a></li>
+									<li><a href="#cda">CDA</a></li>
 					</ul>
 			</ul>
 			</aside>
 <div id="main_box">
-	<div id="onboard">
+
  	<h2>On Boarding</h2>
  			<h3 id="notify">On Board Notification</h3>
 			<p>The notification of onboarding will be received from Department
@@ -73,20 +73,20 @@
 				<p>The form should include, at the minimum, <a class="intext"
 					href="main.html#assignment">assignment profiles</a> from one of the
 					following groups:
-					<ul>
+					<ul id="role">
 						<h4><li id="analyst">Analyst</li></h4>
 							<ol>
 								<li><b>Request all</b> from the following list of <b><em>Core
 									Requirements:</em></b></li>
 								<ul>
-									<li><strong><code>PGM-RMT-QACQ_SAFETY</code></strong>, Safety
-										Training for CQ Lab</li>
-									<li><strong><code>PGM-RMT-QACQ_GDP_P1</code></strong>, Good
-										Documentation Practice</li>
+									<li><strong><code>PGM-RMT-QACQ_SAFETY</code></strong>,
+										Safety Training for CQ Lab</li>
+									<li><strong><code>PGM-RMT-QACQ_GDP_P1</code></strong>,
+										Good Documentation Practice</li>
 									<li><strong><code>PGM-RMT-QACQ_BLP_GLASS</code></strong>,
 										Glassware Cleaning and Use</li>
-									<li><strong><code>PGM-RMT-QTS_VW_TRNG</code></strong>, QTS
-										View-only</li>
+									<li><strong><code>PGM-RMT-QTS_VW_TRNG</code></strong>,
+										QTS View-only</li>
 									<li><strong><code>PGM-RMT-LIMS_CQANALYST</code></strong>,
 										SampleManager LIMS for Analyst <em>(not requried for API
 											and Method Transfer Groups)</em></li>
@@ -100,8 +100,8 @@
 							<li><b>Choose one</b> from the following list of <b><em>Role
 								Assignments:</em></b></li>
 								<ul>
-									<li><strong><code>PGM-RMT-QACQ_FINPROC_REQ</code></strong>, In
-										Process(IP) and Final Product (FP)</li>
+									<li><strong><code>PGM-RMT-QACQ_FINPROC_REQ</code></strong>,
+										In Process(IP) and Final Product (FP)</li>
 									<li><strong><code>PGM-RMT-QACQ_API</code></strong>, Raw
 										Material (API)</li>
 									<li><strong><code>PGM-RMT-QACQ_FINPROC_REQ</code></strong>
@@ -148,23 +148,37 @@
 										UPLC</li>
 									<li><strong><code>PGM-RMT-QACQ_INST_GC</code></strong>,
 										GC</li>
-									<li><strong><code>PGM-RMT-QACQ_INST_TOC</code></strong>, TOC
-										Testing</li>
-									<li><strong><code>PGM-RMT-QACQ_INST_IC</code></strong>, Ion
-										Chromatography</li>
+									<li><strong><code>PGM-RMT-QACQ_INST_TOC</code></strong>,
+										TOC Testing</li>
+									<li><strong><code>PGM-RMT-QACQ_INST_IC</code></strong>,
+										Ion Chromatography</li>
 									<li><strong><code>PGM-RMT-QACQ_INST_ICPMS</code></strong>,
 										ICP Mass Spectrometry	</li>
-									<li><strong><code>PGM-RMT-QACQ_INST_AAFL</code></strong>, AA
-										Flame </li>
-									<li><strong><code>PGM-RMT-QACQ_INST_AAGR</code></strong>, AA
-										Graphite </li>
+									<li><strong><code>PGM-RMT-QACQ_INST_AAFL</code></strong>,
+										AA Flame </li>
+									<li><strong><code>PGM-RMT-QACQ_INST_AAGR</code></strong>,
+										AA Graphite </li>
 									<li><strong><code>PGM-RMT-QACQ_INST_REFR</code></strong>,
 										Refractormeter</li>
 									<li><strong><code>PGM-RMT-QACQ_INST_DM</code></strong>,
 										Density Meter</li>
+									<li><strong><code>PGM-RMT-QACQ_INST_MELT</code></strong>,
+										Metlting Point</li>
+									<li><strong><code>PGM-RMT-QACQ_INST_OSMO</code></strong>,
+										Osmometer</li>
+									<li><strong><code>PGM-RMT-QACQ_BLP_HM</code></strong>,
+										Heavy Metals Analysis</li>
+									<li><strong><code>PGM-RMT-QACQ_INST_BYK</code></strong>,
+									BYK Gardner Liquid Color Spectrophotometer</li>
+									<li><strong><code>PGM-RMT-QACQ_INST_COLOR</code></strong>,
+										Colorimeter</li>
 								</ul>
 						</ol>
-						<li id="dat_review">Data Reviewer</li>
+						<h4><li id="dat_review">Data Reviewer</li></h4>
+							<ol>
+								<li><strong>General Profile</strong></li>
+								<li><strong>Profile for Senior Data Reviewer</strong></li>
+							</ol>
 						<li id="invest">Investigator</li>
 						<li id="doc_spec">Documentation Specialist</li>
 						<li id="inst_spec">Instrumentation Specialist</li>
@@ -172,18 +186,51 @@
 						<li id="supervisor">Supervisor</li>
 			    </ul>
 				</p>
-	</div>
-	<div id="sub_assign">
+
  		<h2>Subsequent Assignments</h2>
  		<h3 id="add_cur">Add Curricula</h3>
 		<h3 id="remove_cur">Remove Curricula</h3>
 		<h3 id="cfe">Certified Fellow Employee</h3>
 		<h3 id="sme">Subject Matter Expert</h3>
-	</div>
-<div id="special">
+
+
+
  		<h2>Special Processes</h2>
    		<h3>g-LIMS</h3>
-   		<h3>ER/QAR Training, <code>PGM-RMT-QTS_ER_QAR</code></h3>
+   		<h3>Laboratory Investigation Report training, PGM-RMT-QTS_LIR</h3>
+This assignment profile contains the following curricula:
+					<table>
+						<th scope="col">Item Code</th>
+						<th scope="col">Item Name</th>
+						<tr>
+							<td><code><strong>PGM-RMT-LC_QA_PFE-CD020328</strong></code></td>
+							<td>PFE GEMS Data Warehouse</td>
+						</tr>
+						<tr>
+							<td><code><strong>PGM-RMT-QTS_CT</strong></code></td>
+							<td>QTS Commitment Tracking Requirements</td>
+						</tr>
+						<tr>
+							<td><code><strong>PGM-RMT-QTS_ER_QAR</strong></code></td>
+							<td>ER/QAR Training</td>
+						</tr>
+						<tr>
+							<td><code><strong>PGM-RMT-QTS-LIR_FAC</strong></code></td>
+							<td>Laboratory Investigation Report Training (Facilitated)</td>
+						</tr>
+						<tr>
+							<td><code><strong>PGM-RMT-QTS_MIR</strong></code></td>
+							<td>Manufacturing Investigations Report Training for Originators
+								and Area Managers</td>
+						</tr>
+						<tr>
+							<td><code><strong>PGM-RMT-QTS_MIR_FAC</strong><code></td>
+							<td>QTS manufacturing Ivestigations Report Training for
+								Responsible Person Area and QA Approver (Facilitated)</td>
+							</tr>
+					</table>
+
+				ER/QAR Training, <code>PGM-RMT-QTS_ER_QAR</code>
    			<p>This curriculum is a part of <b>Laboratory Investigation Report
 					Training, <code>PGM-RMT-QTS_LIR</code></b>, assignment profile.
 					The following items are included in this curriculum: </p>
@@ -240,10 +287,12 @@
        				<li>Access Activity: check <strong>Add</strong> box</li>
        				<li>Access Level: check <strong>Data Entry</strong>
      				</ul>
-     			<li>Proof of completion of training: <p>Provide a copy of Certificate of Completion printed out from PLS</li>
+     			<li>Proof of completion of training: <p>Provide a copy of Certificate
+						of Completion printed out from PLS</li>
 				</ol>
-				<p>The form and the certificate should then submitted to Theresa Khelifi in Trailer I after obtaining Supervisor's signature.</p>
-				<h3>Controlled Drug Agent <code>PGM-RMT-QACQ_COMP_CDA</code> &
+				<p>The form and the certificate should then submitted to Theresa
+					Khelifi in Trailer I after obtaining Supervisor's signature.</p>
+				<h3 id="cda">Controlled Drug Agent <code>PGM-RMT-QACQ_COMP_CDA</code> &
 					<code>PGM-RMT-QA_CDA</code></h3>
 				There are two profiles associated with CDA process of the CQ Lab:
  				<ol>
