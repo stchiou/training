@@ -64,20 +64,17 @@ footer	{
   padding: 20px 20px 20px 20px;}
 
 body	{
-	font-family:Arial, Verdana, sans-serif;}
+	font-family: Calibri, Verdana, sans-serif;}
 
 div#disclaimer {
   clear:both;
   text-align:left;
-  font-size: 12px;}
+  font-size: 14px;}
 
 h1	{
   color: white;
 	font-size: 32px;
   }
-
-strong	{
-	font-family:"Times New Roman", Times, serif;}
 
 aside ul li{
   margin-left:0;
@@ -92,8 +89,11 @@ div#main_box {
     height:800px;
     overflow:scroll;
 }
-div#main_box ul ol li{
+div#main_box ul li{
   margin-top:3px;
+}
+div#main_box ol{
+  margin-top:1em;
 }
 
 a.intext {
