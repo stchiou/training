@@ -55,7 +55,11 @@ aside{
     margin-right:3px;
     overflow:scroll;
 }
+aside button{
+    background-color:#97acd6;
+    display:block;
 
+}
 footer	{
 	clear:both;
 	background-color: #92a8d1;
