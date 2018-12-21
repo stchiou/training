@@ -73,11 +73,38 @@ aside ul li{
   padding-left:2em;
 }
 
-._3rd{
-  font-size:12px;
+.collapsible {
+  background-color:#cfe0e8;
+  width:60%;
+  border:none;
+  outline:none;
   text-align:left;
-  padding-left:3em;
+  cursor:pointer;
+  font-size:14px;
+  padding:2px 2px;
 }
+
+.active, .collapsible:hover {
+  background-color:#bfd0d8;
+}
+.collapsible:after{
+  content:"\002B";
+  color:black;
+  float:right;
+  vertical-align:text-top;
+}
+
+.active:after{
+  content:"\2212";
+  vertical-align:text-top;
+}
+.content{
+  padding:0 18px;
+  display:none;
+  overflow:hidden;
+  background-color:#cfe0e8;
+}
+
 footer	{
 	clear:both;
 	background-color: #92a8d1;
