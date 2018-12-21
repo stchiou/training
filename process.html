@@ -30,9 +30,11 @@
 				<button class="_2nd"><li><a href="#extend">Due Date Extension</a></li></button>
 				<button class="_2nd"><li><a href="#cfe">CFE</a></li></button>
 				<button class="_2nd"><li><a href="#sme">SME and Instructor</a></li></button>
+				<button class="_1st"><li><a href="#sample">Training Sample Request</a></li></button>
 				<button class="_1st"><li><a href="#special">Special Process</a></li></button>
 				<button class="_2nd"><li><a href="#glims">g-LIMS</a></li></button>
 				<button class="_2nd"><li><a href="#lir">Laboratory Investigation</a></li></button>
+				<button class="_2nd"><li><a href="#compiance">Compliance Specialist</a></li></button>
 				<button class="_2nd"><li><a href="#cda">CDA</a></li></button>
 				<button class="_2nd"><li><a href="#ncda">Non-CDA</a></li></button>
 			</ul>
@@ -269,11 +271,14 @@
 		<li>Supervisor's name and signature</li>
 	</ul></p>
 	<h3 id="extend">Extension Request</h3>
+
 	<h3 id="cfe">Certified Fellow Employee</h3>
 	<h3 id="sme">Subject Matter Expert</h3>
-	<h2 id="special">Special Processes</h2>
+	<h2 id="sample">Training Sample Request</h2>
+	<h2 id="special">New or Special Process</h2>
 	<h3 id="glims">g-LIMS</h3>
-	<h3 id="lir">Laboratory Investigation Report training, <code>PGM-RMT-QTS_LIR</code></h3>
+	<button class="collapsible" id="lir"><b>Laboratory Investigation Report training, <code>PGM-RMT-QTS_LIR</code></b></button>
+	<div class="content">
 	This assignment profile contains the following curricula:
 	<table>
 		<th scope="col">Curriculum Code</th>
@@ -340,7 +345,9 @@
 				</li>
          </ul>
    		</ol>
-			<h3>Compliance Specialist, <code>PGM-RMT-QACQ_COMPL_SPEC</code></h3>
+		</div>
+			<button class="collapsible" id="compliance"><b>Compliance Specialist,<code>PGM-RMT-QACQ_COMPL_SPEC</code></b></button>
+			<div class="content">
 				<p>This assignment profile provides required training for accessing
 					ExcelSafe (Compliant version of Excel Spreadsheet that keeps records
 					of control substances).  The following items are required for
@@ -362,104 +369,86 @@
 				</ol>
 				<p>The form and the certificate should then submitted to Theresa
 					Khelifi in Trailer I after obtaining Supervisor's signature.</p>
-				<h3 id="cda">Controlled Drug Agent <code>PGM-RMT-QACQ_COMP_CDA</code> &
-					<code>PGM-RMT-QA_CDA</code></h3>
+				</div>
+				<button class="collapsible" id="cda"><b>Controlled Drug Agent <code>PGM-RMT-QACQ_COMP_CDA</code> &
+					<code>PGM-RMT-QA_CDA</code></b></button>
+				<div class="content">
 				There are two profiles associated with CDA process of the CQ Lab:
-   				<h4>CQ Laboratory Controlled Durg Agent Training, <code>PGM-RMT-
-						QACQ_COMP_CDA</code></h4>
-   					<p>This assignment profile contains only one curriculum, which
-							shares the same name and code as the assignment profile. The
-							curriculum contains the following items:</p>
-							<table>
-     						<th scope="col">Item Code</th>
-     						<th scope="col">Item Name</th>
-     						<tr>
-         					<td><code>SOP <strong>PGM-RMT-QACQ_COMP_CDA_PP</strong>
-									</code></td>
-               		<td>Controlled Drug Agent Training for the CQ Laboratory</td>
-     						</tr>
-     						<tr>
-       						<td><code>COURSE <strong>PGM-RMT-QA_S6100_0031</strong>
-									</code></td>
-             			<td>Controlled Substance Handling</td>
-     						</tr>
-     						<tr>
-         					<td><code>SOP <strong>PGM-RMT-QATS_S6133_0033</strong>
-									</code></td>
-         					<td>Technical Lab Services procedures for Controlled
-										Substances</td>
-     						</tr>
-     						<tr>
-         					<td><code>OJT <strong>PGM-RMT-QACQ_COMP_CDA_TQ</strong>
-									</code></td>
-         					<td>Controlled Drug Agent Training for the CQ Laboratory
-										Qualification Checklist</td>
-     						</tr>
-   						</table>
-       		<h4>Controlled Drug Agent,<code> PGM-RMT-QA_CDA</code></h4>
-					This assignment profile contains the following curricula:</li>
-						<ol type="A">
-     					<li><strong>Controlled Drug Agent Certification
-								<code>, PGM-RMT-QA_CDA_CERT</code></strong></li>
-     						This curricula contains the following items:
-     						<table>
-       						<th scope="col">Item Code</th>
-       						<th scope="col">Item Name</th>
-       						<tr>
-         						<td><code>COURSE <strong>PGM-RMT-QA_CDA_T_PT1</strong>
-										</code></td>
-         						<td>Controlled Drug Agent Certification Part 1</td>
-       						</tr>
-       						<tr>
-         						<td><code>COURSE <strong>PGM-RMT-QA_CDA_T_PT2</strong>
-										</code></td>
-         						<td>Controlled Drug Agent Certification Part 2</td>
-       						</tr>
-       						<tr>
-         						<td><code>COURSE <strong>PGM-RMT-QA_CAPA2181500</strong>
-										</code></td>
-         						<td>CSTR Documentation and Corrections</td>
-       						</tr>
-     						</table>
-     						<p><strong>Note:</strong>The Controlled Drug Agent Certification
-									 Part 2, <strong><code>PGM-RMT-QA_CDA_T_PT2,</code></strong> is an
-									 in-person testing that takes place at the Testing Center of
-									 the Site Training. It is last item among all the required
-									 items of the whole process that the colleague has to
-									 complete.</p>
-     					<li><strong>Controlled Drug Agent Instructor Led Training
-								<code>, PGM-RMT-QA_CDA_ILT</code></strong></li>This curriculum
-								contains the following items:
-     						<table>
-       						<th scope="col">Item Code</th>
-       						<th scope="col">Item Name</th>
-       						<tr>
-         						<td><code>COURSE <strong>PGM-RMT-QA_CDA_ILT</strong></code>
-										</td>
-         						<td>Controlled Drug Agent (CDA) Instructor Led Training</td>
-       						</tr>
-       						<tr>
-         						<td><code>ASSESSMENT <strong>PGM-RMT-QA_CDA_ILT_T</strong>
-										</code></td>
-         						<td>Controlled Drug Agent (CDA) Instructor Led Training
-											Test</td>
-       						</tr>
-     						</table>
-     					<li><strong>Controlled Drug Agent On the Job Assessment
-								<code>, PGM-RMT-QA_CDA_OJA</strong></code></li>
-     						<p>This curriculum contains only one item:</p>
-     								<table>
-       <th scope="col">Item Code</th>
-       <th scope="col">Item Name</th>
-       <tr>
-         <td><code>OJT <strong>PGM-RMT-QA_CDA_OJA</strong></code></td>
-         <td>On the Job Analysis (OJA) for Controlled Drug Agent</td>
-       </tr>
-     </table></p>
-     <li><strong>Controlled Drug Agent Requirement
-			 <code>(PGM-RMT-QARC_CDA_REQ)</code></strong></li>
-     <p>This curriculum includes the following items:</p>
-     <p><table>
+   			<h3>CQ Laboratory Controlled Durg Agent Training, <code>PGM-RMT-QACQ_COMP_CDA</code></h3>
+   			<p>This assignment profile contains only one curriculum, which shares the
+					same name and code as the assignment profile. The curriculum contains the following items:</p>
+				<table>
+     			<th scope="col">Item Code</th>
+     			<th scope="col">Item Name</th>
+     			<tr>
+         		<td><code>SOP <strong>PGM-RMT-QACQ_COMP_CDA_PP</strong></code></td>
+            <td>Controlled Drug Agent Training for the CQ Laboratory</td>
+     			</tr>
+     			<tr>
+       			<td><code>COURSE <strong>PGM-RMT-QA_S6100_0031</strong></code></td>
+						<td>Controlled Substance Handling</td>
+     			</tr>
+     			<tr>
+						<td><code>SOP <strong>PGM-RMT-QATS_S6133_0033</strong></code></td>
+						<td>Technical Lab Services procedures for Controlled Substances</td>
+     			</tr>
+					<tr>
+						<td><code>OJT <strong>PGM-RMT-QACQ_COMP_CDA_TQ</strong></code></td>
+         		<td>Controlled Drug Agent Training for the CQ Laboratory Qualification Checklist</td>
+     			</tr>
+   			</table>
+			<h3>Controlled Drug Agent,<code> PGM-RMT-QA_CDA</code></h3>
+			This assignment profile contains the following curricula:
+			<ol type="A">
+				<li><strong>Controlled Drug Agent Certification<code>, PGM-RMT-QA_CDA_CERT</code></strong></li>
+     		This curricula contains the following items:
+				<table>
+					<th scope="col">Item Code</th>
+					<th scope="col">Item Name</th>
+					<tr>
+						<td><code>COURSE <strong>PGM-RMT-QA_CDA_T_PT1</strong></code></td>
+						<td>Controlled Drug Agent Certification Part 1</td>
+       		</tr>
+       		<tr>
+						<td><code>COURSE <strong>PGM-RMT-QA_CDA_T_PT2</strong></code></td>
+						<td>Controlled Drug Agent Certification Part 2</td>
+					</tr>
+					<tr>
+						<td><code>COURSE <strong>PGM-RMT-QA_CAPA2181500</strong></code></td>
+						<td>CSTR Documentation and Corrections</td>
+					</tr>
+				</table>
+				<p><strong>Note:</strong>The Controlled Drug Agent Certification Part 2,
+					 <strong><code>PGM-RMT-QA_CDA_T_PT2,</code></strong> is an in-person
+					 testing that takes place at the Testing Center of the Site Training.
+					 It is last item among all the required items of the whole process that
+					 the colleague has to complete.</p>
+					 <li><strong>Controlled Drug Agent Instructor Led Training, <code> PGM-RMT-QA_CDA_ILT</code></strong></li>
+					 This curriculum contains the following items:
+					 <table>
+						 <th scope="col">Item Code</th>
+						 <th scope="col">Item Name</th>
+						 <tr>
+							 <td><code>COURSE <strong>PGM-RMT-QA_CDA_ILT</strong></code></td>
+							 <td>Controlled Drug Agent (CDA) Instructor Led Training</td></tr>
+						 <tr>
+							 <td><code>ASSESSMENT <strong>PGM-RMT-QA_CDA_ILT_T</strong></code></td>
+							 <td>Controlled Drug Agent (CDA) Instructor Led Training Test</td>
+						 </tr>
+					 </table>
+					 <li><strong>Controlled Drug Agent On the Job Assessment, <code>PGM-RMT-QA_CDA_OJA</strong></code></li>
+					 <p>This curriculum contains only one item:</p>
+					 <table>
+						 <th scope="col">Item Code</th>
+						 <th scope="col">Item Name</th>
+						 <tr>
+							 <td><code>OJT <strong>PGM-RMT-QA_CDA_OJA</strong></code></td>
+							 <td>On the Job Analysis (OJA) for Controlled Drug Agent</td>
+						 </tr>
+     </table>
+     <li><strong>Controlled Drug Agent Requirement, <code>PGM-RMT-QARC_CDA_REQ</code></strong></li>
+     This curriculum includes the following items:
+     <table>
        <th scope="col">Item Code</th>
        <th scope="col">Item Name</th>
        <tr>
@@ -470,14 +459,15 @@
          <td><code>COURSE <strong>PGM-RMT-QA_CDA_WBT</strong></code></td>
          <td>Controlled Drug Agent Training</td>
        </tr>
-     </table></p>
-   </ol></p>
-	 <h4 id="ncda">Non-CDA, <code>PGM-RMT-QACQ_COMP_NCDA</code></h4>
+     </table>
+   </ol>
+ </div>
+	 <button class="collapsible" id="ncda"><b>Non-CDA, <code>PGM-RMT-QACQ_COMP_NCDA</code></b></button>
+	 <div class="content">
 	 This assignment profile is to assigned to a CQ Analyst with the discretion of
 	  a Supervisor. The assignment profile contains only one curriculum which
-		share the same code as the that of the assignment profile (<stong><code>PGM-
-			RMT-QACQ_COMP_NCDA</code></strong>). The curricula has the following items:
-		<table>
+		share the same code as the that of the assignment profile,<stong><code>PGM-RMT-QACQ_COMP_NCDA</code></strong>. The curricula has the following items:
+	<table>
 			<th scope="col">Item Code</th>
 			<th scope="col">Item Name</th>
 			<tr>
@@ -493,10 +483,9 @@
 			</tr>
 			<tr>
 				<td><code>OJT <strong>PGM-RMT-QACQ_COMP_NCDA_TQ</strong></code></td>
-				<td>Controlled Drug Handling for Non-CDAs in the CQ Laboratory
-					Qualification Checklist</td>
+				<td>Controlled Drug Handling for Non-CDAs in the CQ Laboratory Qualification Checklist</td>
 			</tr>
-		</table>
+	</table>
 </div>
 <script type="text/javascript" src="collapsible.js"></script>
 </body>
