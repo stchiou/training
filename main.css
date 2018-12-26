@@ -3,6 +3,7 @@ header 	{
    	text-align: center;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom: 5px;
     padding:20px 20px 20px 20px;
     }
 
@@ -21,35 +22,35 @@ a:hover {
   font-style:oblique;
 }
 
-nav button{
-      padding:15px 32px;
+.navlink{
+      padding:0px 30px;
       font-size: 22px;
       color:white;
       background-color:#a2b9bc;
       text-align:center;
     }
 
-nav button:hover {
+.navlink:hover {
    color:white;
    background-color:#d6cbd3;
 }
 
-nav button#selected {
+#selected {
       color:white;
       background-color:#898989;
     }
 
 aside{
-    margin-top:1px;
-    padding-top:20px;
+    margin-top:5px;
+    padding-top:10px;
     float:left;
     background-color:#97acd6;
     width: 23%;
     height:800px;
-    margin-right:3px;
+    margin-right:5px;
     overflow:scroll;
 }
-aside button{
+aside a{
     background-color:#97acd6;
     display:block;
     width:100%;
@@ -126,13 +127,13 @@ h1	{
   }
 
 div#main_box {
-    width:73%;
-    padding-top:20px;
+    width:75%;
+    padding-top:10px;
     height:800px;
     overflow:scroll;
     background-color:#cfe0e8;
     padding-left:1em;
-    margin-top:1px;
+    margin-top:5px;
 }
 div#main_box ul li{
   margin-top:3px;
