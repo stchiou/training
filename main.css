@@ -128,7 +128,7 @@ h1	{
 
 div#main_box {
     width:75%;
-    padding-top:10px;
+
     height:800px;
     overflow:scroll;
     background-color:#cfe0e8;
@@ -142,7 +142,21 @@ div#main_box ul li{
 div#main_box ol{
   margin-top:1em;
 }
-
+div#sec_1{
+  float:left;
+  width:33%;
+  padding-right:2px;
+}
+div#sec_2{
+  float:left;
+  width:33%;
+  padding-right:2px;
+}
+div#sec_3{
+  float:left;
+  width:33%;
+  padding-right:2px;
+}
 a.intext {
   color:blue;
 }
